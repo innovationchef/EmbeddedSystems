@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=adc.map -O0 --gc-sections --specs=nano.specs -LC:\CooCox\CoIDE\configuration\ProgramData\adc -TC:\CooCox\CoIDE\configuration\ProgramData\adc/arm-gcc-link.ld -g">
+      <target file="adc.elf" lastModified="151792b7605">
+         <source file="..\obj\semihosting.o" lastModified="1517920f8b1"/>
+         <source file="..\obj\tm_stm32f4_adc.o" lastModified="1517920fa70"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1517920fb6b"/>
+         <source file="..\obj\main.o" lastModified="151792b7254"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1517920fe11"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1517920ff4b"/>
+         <source file="..\obj\printf.o" lastModified="151792101fa"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="15179210291"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="151792103a1"/>
+         <source file="..\obj\sh_cmd.o" lastModified="151792103cf"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="151792104e7"/>
+         <source file="..\obj\syscalls.o" lastModified="15179210536"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15179210610"/>
+         <source file="..\obj\misc.o" lastModified="1517921069f"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="15179210777"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="1517921094d"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15179210ab3"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\semi_hosting\cmsis_lib\include /I..\..\..\workspace /I..\..\..\workspace\semi_hosting\cmsis_lib /I..\..\..\workspace\semi_hosting\cmsis_boot /I..\..\..\workspace\semi_hosting\cmsis /I..\..\..\workspace\semi_hosting\semihosting /I..\..\..\workspace\semi_hosting">
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="151688c2490">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="151688c24ee">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="151688c2072">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151688c2063">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="151688c3f20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="151689c9aff">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="151688c23f9">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="151688c79fa">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="151688a53f5">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="151688a437d">
+      </source>
+      <source file="..\..\..\main.c" lastModified="151689de89b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="151688c24c8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="151688c3f99">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="151688a437f">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="151688a4b4c">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151688c1fee">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="151688c3f43">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="151688c24a7">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="151688c3f78">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

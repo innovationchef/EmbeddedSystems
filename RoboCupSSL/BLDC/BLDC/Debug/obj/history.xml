@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\BLDC\cmsis_boot -I..\..\..\workspace\BLDC\cmsis -I..\..\..\workspace -I..\..\..\workspace\BLDC\cmsis_lib -I..\..\..\workspace\BLDC\cmsis_lib\include -I..\..\..\workspace\BLDC">
+      <target file="stm32f4xx_gpio.o" lastModified="154a5e6651f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1548c53ad51"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="154a5e6676c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1548c543f25"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154a5e66593">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1548c53a641"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="154a5e6637d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1548c53a5fe"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="154a5e66317">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1548c89b671"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="154a5e665fe">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1548c53b517"/>
+      </target>
+      <target file="main.o" lastModified="154a6085da3">
+         <source file="..\..\..\main.c" lastModified="154a6084645"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="154a5e664ad">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1548c53a5e8"/>
+      </target>
+      <target file="misc.o" lastModified="154a5e6666c">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1548c53f19f"/>
+      </target>
+   </processor>
+</history>

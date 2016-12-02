@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\workspace\semi_hosting\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\semi_hosting\cmsis_lib -I..\..\..\workspace\semi_hosting\cmsis_boot -I..\..\..\workspace\semi_hosting\cmsis -I..\..\..\workspace\semi_hosting\semihosting -I..\..\..\workspace\semi_hosting">
+      <target file="syscalls.o" lastModified="15168990a76">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="151688a4455"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="151689909a0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="151688c3f43"/>
+      </target>
+      <target file="printf.o" lastModified="151689deb4c">
+         <source file="..\..\..\stdio\printf.c" lastModified="151689c932f"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15168990a0a">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151688c2063"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15168990614">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151688c1fee"/>
+      </target>
+      <target file="main.o" lastModified="151689dead4">
+         <source file="..\..\..\main.c" lastModified="151689de89b"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="151689909af">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="151688a437f"/>
+      </target>
+      <target file="semihosting.o" lastModified="151689905d8">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="151688a437c"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15168990727">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="151688c3f99"/>
+      </target>
+   </processor>
+</history>

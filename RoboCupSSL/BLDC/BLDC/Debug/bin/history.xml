@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=BLDC.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\BLDC -TC:\CooCox\CoIDE\configuration\ProgramData\BLDC/arm-gcc-link.ld -g">
+      <target file="BLDC.elf" lastModified="154a60861c4">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="154a5e66317"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="154a5e6637d"/>
+         <source file="..\obj\main.o" lastModified="154a6085da3"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="154a5e664ad"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="154a5e6651f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="154a5e66593"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="154a5e665fe"/>
+         <source file="..\obj\misc.o" lastModified="154a5e6666c"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="154a5e6676c"/>
+      </target>
+   </processor>
+</history>

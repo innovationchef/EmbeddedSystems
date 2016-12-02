@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Kunal\Desktop\spi\Nordic\Transmitter\cmsis -I..\..\..\..\..\Users\Kunal\Desktop\spi\Nordic -I..\..\..\..\..\Users\Kunal\Desktop\spi -I..\..\..\..\..\Users\Kunal\Desktop\spi\Nordic\Transmitter -I..\..\..\..\..\Users\Kunal\Desktop\spi\Nordic\Transmitter\cmsis_lib\include -I..\..\..\..\..\Users\Kunal\Desktop\spi\Nordic\Transmitter\cmsis_boot -I..\..\..\..\..\Users\Kunal\Desktop\spi\Nordic\Transmitter\cmsis_lib">
+      <target file="stm32f4xx_gpio.o" lastModified="1502f6603d2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14d25aa64cf"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1502f6606a3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14d25aa9684"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1502f660436">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14d25aa3a1b"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1502f6601cc">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14d25aa39c8"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1502f66014f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14d26253aa6"/>
+      </target>
+      <target file="main.o" lastModified="15048e628f5">
+         <source file="..\..\..\main.c" lastModified="15048e62580"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1502f6604cc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14d25aa7f19"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1502f660357">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14d25aa4bf0"/>
+      </target>
+      <target file="misc.o" lastModified="1502f660533">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14d262564aa"/>
+      </target>
+   </processor>
+</history>

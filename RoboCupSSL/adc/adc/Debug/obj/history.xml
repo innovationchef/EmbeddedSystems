@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\workspace\adc\cmsis_lib\include -I..\..\..\workspace\adc\cmsis -I..\..\..\workspace\adc\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\adc\cmsis_boot -I..\..\.. -I..\..\..\workspace\adc -I..\..\..\workspace\adc\semihosting">
+      <target file="syscalls.o" lastModified="15179210536">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="151791eaf1f"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="151792103a1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15178b1a41e"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="1517920ff4b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="15178b1df1d"/>
+      </target>
+      <target file="tm_stm32f4_adc.o" lastModified="1517920fa70">
+         <source file="..\..\..\tm_stm32f4_adc.c" lastModified="151790e2531"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15179210ab3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1517914e358"/>
+      </target>
+      <target file="printf.o" lastModified="151792101fa">
+         <source file="..\..\..\stdio\printf.c" lastModified="151791eaea4"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="151792104e7">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15178b16095"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="1517921094d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="15178b1d18a"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="15179210777">
+         <source file="..\..\..\tm_stm32f4_gpio.c" lastModified="14d0929f4e5"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1517920fb6b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15178b16031"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="15179210610">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15178b1c20d"/>
+      </target>
+      <target file="main.o" lastModified="151792b7254">
+         <source file="..\..\..\main.c" lastModified="151792b6ed4"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="151792103cf">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="151791eadf7"/>
+      </target>
+      <target file="semihosting.o" lastModified="1517920f8b1">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="151791eadc8"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="15179210291">
+         <source file="..\..\..\tm_stm32f4_delay.c" lastModified="146534976f0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1517920fe11">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15178b16007"/>
+      </target>
+      <target file="misc.o" lastModified="1517921069f">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15178d66a03"/>
+      </target>
+   </processor>
+</history>

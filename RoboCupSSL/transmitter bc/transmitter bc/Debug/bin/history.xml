@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=transmitter bc.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\transmitter bc -TC:\CooCox\CoIDE\configuration\ProgramData\transmitter bc/arm-gcc-link.ld -g">
+      <target file="transmitter bc.elf" lastModified="153860ff7ff">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="15370bfabc2"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15370bfae0b"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15370bfaefc"/>
+         <source file="..\obj\main.o" lastModified="153860ff5cf"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15370bfb67e"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15370bfb7be"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15370bfb938"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="15370bfbafd"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15370bfbc40"/>
+         <source file="..\obj\misc.o" lastModified="15370bfbd71"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15370bfc0aa"/>
+      </target>
+   </processor>
+</history>

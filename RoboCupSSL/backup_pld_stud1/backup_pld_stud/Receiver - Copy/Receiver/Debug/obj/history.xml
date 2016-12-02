@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1\backup_pld_stud -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1\backup_pld_stud\Receiver - Copy\cmsis -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1\backup_pld_stud\Receiver - Copy\cmsis_lib\include -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1\backup_pld_stud\Receiver - Copy\cmsis_lib -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1 -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1\backup_pld_stud\Receiver - Copy\cmsis_boot -I..\..\..\..\..\Users\user\Desktop\backup_pld_stud1\backup_pld_stud\Receiver - Copy">
+      <target file="stm32f4xx_gpio.o" lastModified="15365d83778">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14d25acd7be"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15365d83fd9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14d25ad2db1"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15365d83873">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14d25acad45"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15365d82ff0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14d25acacf2"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15365d82ef5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14d25ad2d4b"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="15365d82d34">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14d66f05bc6"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="15365d83b52">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14d66f0718c"/>
+      </target>
+      <target file="main.o" lastModified="153661dd6f5">
+         <source file="..\..\..\main.c" lastModified="153661dcbb3"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15365d83a16">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14d25acec0a"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15365d835ff">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14d25acc3c9"/>
+      </target>
+      <target file="misc.o" lastModified="15365d83c66">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14d25ea381e"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=all.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\all -TC:\CooCox\CoIDE\configuration\ProgramData\all/arm-gcc-link.ld -g">
+      <target file="all.elf" lastModified="153ad8de703">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="153ad8dd3de"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="153ad8dd57f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="153ad8dd643"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="153ad8dd7f6"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="153ad8dd9ab"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="153ad8ddae3"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="153ad8ddbed"/>
+         <source file="..\obj\syscalls.o" lastModified="153ad8ddcbb"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="153ad8ddda6"/>
+         <source file="..\obj\misc.o" lastModified="153ad8dde8d"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="153ad8de1a5"/>
+         <source file="..\obj\zigbee_with_kicker.o" lastModified="153ad8de370"/>
+      </target>
+   </processor>
+</history>

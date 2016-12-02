@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Receiver.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Receiver -TC:\CooCox\CoIDE\configuration\ProgramData\Receiver/arm-gcc-link.ld -g">
+      <target file="Receiver.elf" lastModified="1533d6a4261">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="1533d6a369a"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1533d6a376c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1533d6a37da"/>
+         <source file="..\obj\main.o" lastModified="1533d6a39ca"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1533d6a3a95"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1533d6a3b28"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1533d6a3b9a"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="1533d6a3c46"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1533d6a3cc1"/>
+         <source file="..\obj\misc.o" lastModified="1533d6a3d20"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1533d6a3e6f"/>
+      </target>
+   </processor>
+</history>
